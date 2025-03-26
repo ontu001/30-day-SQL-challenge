@@ -1,0 +1,16 @@
+CREATE TABLE customers (id INT, name VARCHAR(50));
+INSERT INTO customers VALUES 
+(1, 'John'),
+(2, 'Sarah'),
+(3, 'Mike');
+
+CREATE TABLE orders (order_id INT, customer_id INT, amount DECIMAL);
+INSERT INTO orders VALUES
+(101, 1, 150),
+(102, 3, 99),
+(103, 1, 200);
+
+
+
+
+Day 9: Subqueries, the problem is to find customers who never placed orders
